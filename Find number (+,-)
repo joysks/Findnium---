@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class find_number {
+    
+    
+public static void main(String [] args)
+{
+    Scanner num=new Scanner(System.in);
+    System.out.print("Inter the input Number");
+    int input= num.nextInt();
+    
+    if (input>0)
+{
+    
+    System.out.println("The Number is pisitive");
+} 
+else if (input<0)
+{
+    System.out.println("The Niumber is Nagative");
+}        
+else 
+{
+    
+    System.out.println(" The  number is Zerro");
+}
+    
+    
+}
+}
